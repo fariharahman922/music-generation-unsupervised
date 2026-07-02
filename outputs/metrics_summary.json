@@ -1,0 +1,65 @@
+{
+  "summary_rows": [
+    {
+      "group": "random_baseline",
+      "num_files": 5,
+      "pitch_histogram_distance_mean": 0.2089586853981018,
+      "pitch_histogram_distance_std": 0.040297939131236936,
+      "rhythm_diversity_mean": 0.0068770765693584365,
+      "rhythm_diversity_std": 0.001283258098423259,
+      "repetition_ratio_mean": 0.0,
+      "repetition_ratio_std": 0.0,
+      "perplexity": null
+    },
+    {
+      "group": "markov_baseline",
+      "num_files": 5,
+      "pitch_histogram_distance_mean": 0.21855246424674987,
+      "pitch_histogram_distance_std": 0.07048447485892655,
+      "rhythm_diversity_mean": 0.09679035352352768,
+      "rhythm_diversity_std": 0.013717638209798549,
+      "repetition_ratio_mean": 0.0032,
+      "repetition_ratio_std": 0.0064,
+      "perplexity": null
+    },
+    {
+      "group": "task1_autoencoder",
+      "num_files": 5,
+      "pitch_histogram_distance_mean": 0.12916073203086853,
+      "pitch_histogram_distance_std": 0.0,
+      "rhythm_diversity_mean": 0.011363636363636364,
+      "rhythm_diversity_std": 0.0,
+      "repetition_ratio_mean": 1.0,
+      "repetition_ratio_std": 0.0,
+      "perplexity": null
+    },
+    {
+      "group": "task2_vae",
+      "num_files": 8,
+      "pitch_histogram_distance_mean": 0.5867603309452534,
+      "pitch_histogram_distance_std": 0.16121065449315067,
+      "rhythm_diversity_mean": 0.4166702613625112,
+      "rhythm_diversity_std": 0.07356349496993858,
+      "repetition_ratio_mean": 0.17730645161290323,
+      "repetition_ratio_std": 0.07071771756443652,
+      "perplexity": null
+    },
+    {
+      "group": "task3_transformer",
+      "num_files": 10,
+      "pitch_histogram_distance_mean": 0.733418983221054,
+      "pitch_histogram_distance_std": 0.16790891489821413,
+      "rhythm_diversity_mean": 0.15318050524232543,
+      "rhythm_diversity_std": 0.05582024219649485,
+      "repetition_ratio_mean": 0.22981708293091052,
+      "repetition_ratio_std": 0.1400581011378149,
+      "perplexity": 3.844728913913907
+    }
+  ],
+  "transformer_perplexity_report": {
+    "task": "Task 3 Transformer-Based Music Generator",
+    "best_validation_loss": 1.3467030969386722,
+    "best_validation_perplexity": 3.844728913913907,
+    "formula_note": "Perplexity = exp(mean token-level negative log-likelihood)"
+  }
+}

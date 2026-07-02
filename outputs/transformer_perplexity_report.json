@@ -1,0 +1,6 @@
+{
+  "task": "Task 3 Transformer-Based Music Generator",
+  "best_validation_loss": 1.3467030969386722,
+  "best_validation_perplexity": 3.844728913913907,
+  "formula_note": "Perplexity = exp(mean token-level negative log-likelihood)"
+}

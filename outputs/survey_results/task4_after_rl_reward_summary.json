@@ -1,0 +1,12 @@
+{
+  "num_participants": 17,
+  "num_scored_samples": 10,
+  "total_ratings": 170,
+  "overall_after_rl_mean_score": 3.9941176470588236,
+  "overall_after_rl_std_score": 0.9670881632875745,
+  "reward_source": "Average human listening score per sample",
+  "score_range": [
+    1,
+    5
+  ]
+}

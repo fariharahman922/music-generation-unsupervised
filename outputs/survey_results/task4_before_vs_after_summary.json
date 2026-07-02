@@ -1,0 +1,15 @@
+{
+  "task": "Task 4 Before vs After RLHF Comparison",
+  "before_num_participants": 18,
+  "after_num_participants": 17,
+  "before_mean_human_score": 3.7055555555555557,
+  "after_mean_human_score": 3.9941176470588236,
+  "absolute_improvement": 0.28856209150326784,
+  "relative_improvement_percent": 7.787282829173645,
+  "before_total_ratings": 180,
+  "after_total_ratings": 170,
+  "score_range": [
+    1,
+    5
+  ]
+}

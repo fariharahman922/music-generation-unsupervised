@@ -1,0 +1,12 @@
+{
+  "task": "Task 4 RLHF - First RL Update Round",
+  "pretrained_model": "F:\\music-generation-unsupervised\\outputs\\transformer_best.pt",
+  "reward_csv": "F:\\music-generation-unsupervised\\outputs\\survey_results\\task4_reward_scores.csv",
+  "num_rated_sequences": 10,
+  "before_rl_mean_human_score": 3.7055554389953613,
+  "before_rl_std_human_score": 0.3315228819847107,
+  "reward_normalization_mean": 3.7055554389953613,
+  "reward_normalization_std": 0.3315228819847107,
+  "best_rlhf_loss": -46.171244303385414,
+  "next_required_step": "Run second listening survey on after-RL outputs"
+}
